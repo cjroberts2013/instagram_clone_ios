@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E26D15173538DB59C6AD453 /* Pods_Christina_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602B93D71F5F78F9C88A7D3E /* Pods_Christina_App.framework */; };
+		5D5FD4D11F074C45BBA1809D /* Pods_Christina_App_Christina_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99742246A4F79FBEB919BB39 /* Pods_Christina_App_Christina_AppUITests.framework */; };
 		7D2F0EF327D8672100540D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0EF227D8672100540D33 /* AppDelegate.swift */; };
 		7D2F0EF527D8672100540D33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0EF427D8672100540D33 /* SceneDelegate.swift */; };
 		7D2F0EF727D8672100540D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0EF627D8672100540D33 /* ViewController.swift */; };
@@ -16,6 +18,12 @@
 		7D2F0F0A27D8672200540D33 /* Christina_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0F0927D8672200540D33 /* Christina_AppTests.swift */; };
 		7D2F0F1427D8672200540D33 /* Christina_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0F1327D8672200540D33 /* Christina_AppUITests.swift */; };
 		7D2F0F1627D8672200540D33 /* Christina_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0F1527D8672200540D33 /* Christina_AppUITestsLaunchTests.swift */; };
+		7D2F0F2527D8715C00540D33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F0F2427D8715C00540D33 /* GoogleService-Info.plist */; };
+		7D2F0F2A27D99D0500540D33 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0F2927D99D0500540D33 /* HomeViewController.swift */; };
+		7D2F0F2E27D99D4500540D33 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0F2D27D99D4500540D33 /* SettingsViewController.swift */; };
+		7D2F0FBC27DCFBA100540D33 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0FBB27DCFBA100540D33 /* CustomTabBarViewController.swift */; };
+		7D2F0FBE27DD2A6400540D33 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F0FBD27DD2A6400540D33 /* UploadViewController.swift */; };
+		97F7B3F3919DBD8C760357BB /* Pods_Christina_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4085BB01264BDB3E1848804 /* Pods_Christina_AppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036E222BC7859414A143EBC3 /* Pods-Christina App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christina App.release.xcconfig"; path = "Target Support Files/Pods-Christina App/Pods-Christina App.release.xcconfig"; sourceTree = "<group>"; };
+		05689B12C18D0D525F19B3A4 /* Pods-Christina AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christina AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Christina AppTests/Pods-Christina AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2970509A125ED1E0823E3AE6 /* Pods-Christina App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christina App.debug.xcconfig"; path = "Target Support Files/Pods-Christina App/Pods-Christina App.debug.xcconfig"; sourceTree = "<group>"; };
+		5B64D281B67AAD36D2B567FF /* Pods-Christina AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christina AppTests.release.xcconfig"; path = "Target Support Files/Pods-Christina AppTests/Pods-Christina AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		602B93D71F5F78F9C88A7D3E /* Pods_Christina_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Christina_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2F0EEF27D8672100540D33 /* Christina App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christina App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2F0EF227D8672100540D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D2F0EF427D8672100540D33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,15 @@
 		7D2F0F0F27D8672200540D33 /* Christina AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christina AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2F0F1327D8672200540D33 /* Christina_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christina_AppUITests.swift; sourceTree = "<group>"; };
 		7D2F0F1527D8672200540D33 /* Christina_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christina_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D2F0F2427D8715C00540D33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7D2F0F2927D99D0500540D33 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7D2F0F2D27D99D4500540D33 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7D2F0FBB27DCFBA100540D33 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		7D2F0FBD27DD2A6400540D33 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		900306B7987869A953FC17C9 /* Pods-Christina App-Christina AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christina App-Christina AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Christina App-Christina AppUITests/Pods-Christina App-Christina AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99742246A4F79FBEB919BB39 /* Pods_Christina_App_Christina_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Christina_App_Christina_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4085BB01264BDB3E1848804 /* Pods_Christina_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Christina_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA9515AE925D280C39EF937 /* Pods-Christina App-Christina AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christina App-Christina AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Christina App-Christina AppUITests/Pods-Christina App-Christina AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E26D15173538DB59C6AD453 /* Pods_Christina_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F7B3F3919DBD8C760357BB /* Pods_Christina_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5FD4D11F074C45BBA1809D /* Pods_Christina_App_Christina_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5848F01E85A99BA83037C42B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2970509A125ED1E0823E3AE6 /* Pods-Christina App.debug.xcconfig */,
+				036E222BC7859414A143EBC3 /* Pods-Christina App.release.xcconfig */,
+				AAA9515AE925D280C39EF937 /* Pods-Christina App-Christina AppUITests.debug.xcconfig */,
+				900306B7987869A953FC17C9 /* Pods-Christina App-Christina AppUITests.release.xcconfig */,
+				05689B12C18D0D525F19B3A4 /* Pods-Christina AppTests.debug.xcconfig */,
+				5B64D281B67AAD36D2B567FF /* Pods-Christina AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7D2F0EE627D8672100540D33 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				7D2F0F0827D8672200540D33 /* Christina AppTests */,
 				7D2F0F1227D8672200540D33 /* Christina AppUITests */,
 				7D2F0EF027D8672100540D33 /* Products */,
+				5848F01E85A99BA83037C42B /* Pods */,
+				CC98A1F67E57BE9CD7FAB160 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +139,16 @@
 		7D2F0EF127D8672100540D33 /* Christina App */ = {
 			isa = PBXGroup;
 			children = (
+				7D2F0F2827D99CDC00540D33 /* Models */,
+				7D2F0F2727D99CD600540D33 /* Views */,
+				7D2F0F2627D99CCC00540D33 /* Controllers */,
 				7D2F0EF227D8672100540D33 /* AppDelegate.swift */,
 				7D2F0EF427D8672100540D33 /* SceneDelegate.swift */,
 				7D2F0EF627D8672100540D33 /* ViewController.swift */,
-				7D2F0EF827D8672100540D33 /* Main.storyboard */,
 				7D2F0EFB27D8672200540D33 /* Assets.xcassets */,
 				7D2F0EFD27D8672200540D33 /* LaunchScreen.storyboard */,
 				7D2F0F0027D8672200540D33 /* Info.plist */,
+				7D2F0F2427D8715C00540D33 /* GoogleService-Info.plist */,
 			);
 			path = "Christina App";
 			sourceTree = "<group>";
@@ -127,6 +170,42 @@
 			path = "Christina AppUITests";
 			sourceTree = "<group>";
 		};
+		7D2F0F2627D99CCC00540D33 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D2F0F2927D99D0500540D33 /* HomeViewController.swift */,
+				7D2F0F2D27D99D4500540D33 /* SettingsViewController.swift */,
+				7D2F0FBB27DCFBA100540D33 /* CustomTabBarViewController.swift */,
+				7D2F0FBD27DD2A6400540D33 /* UploadViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7D2F0F2727D99CD600540D33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D2F0EF827D8672100540D33 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D2F0F2827D99CDC00540D33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC98A1F67E57BE9CD7FAB160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602B93D71F5F78F9C88A7D3E /* Pods_Christina_App.framework */,
+				99742246A4F79FBEB919BB39 /* Pods_Christina_App_Christina_AppUITests.framework */,
+				A4085BB01264BDB3E1848804 /* Pods_Christina_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D2F0F1927D8672200540D33 /* Build configuration list for PBXNativeTarget "Christina App" */;
 			buildPhases = (
+				C6A7F8FFB3A0115E70ACF0CC /* [CP] Check Pods Manifest.lock */,
 				7D2F0EEB27D8672100540D33 /* Sources */,
 				7D2F0EEC27D8672100540D33 /* Frameworks */,
 				7D2F0EED27D8672100540D33 /* Resources */,
+				4A14416A41EDECE1F04B12AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D2F0F1C27D8672200540D33 /* Build configuration list for PBXNativeTarget "Christina AppTests" */;
 			buildPhases = (
+				7BAB41BF321680CB04978964 /* [CP] Check Pods Manifest.lock */,
 				7D2F0F0127D8672200540D33 /* Sources */,
 				7D2F0F0227D8672200540D33 /* Frameworks */,
 				7D2F0F0327D8672200540D33 /* Resources */,
@@ -169,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D2F0F1F27D8672200540D33 /* Build configuration list for PBXNativeTarget "Christina AppUITests" */;
 			buildPhases = (
+				59024C5A6E1CB946BC5238D6 /* [CP] Check Pods Manifest.lock */,
 				7D2F0F0B27D8672200540D33 /* Sources */,
 				7D2F0F0C27D8672200540D33 /* Frameworks */,
 				7D2F0F0D27D8672200540D33 /* Resources */,
+				D54EF5C67335FA900DD124D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D2F0EFF27D8672200540D33 /* LaunchScreen.storyboard in Resources */,
+				7D2F0F2527D8715C00540D33 /* GoogleService-Info.plist in Resources */,
 				7D2F0EFC27D8672200540D33 /* Assets.xcassets in Resources */,
 				7D2F0EFA27D8672100540D33 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +338,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A14416A41EDECE1F04B12AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Christina App/Pods-Christina App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Christina App/Pods-Christina App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Christina App/Pods-Christina App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59024C5A6E1CB946BC5238D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Christina App-Christina AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BAB41BF321680CB04978964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Christina AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A7F8FFB3A0115E70ACF0CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Christina App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54EF5C67335FA900DD124D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Christina App-Christina AppUITests/Pods-Christina App-Christina AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Christina App-Christina AppUITests/Pods-Christina App-Christina AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Christina App-Christina AppUITests/Pods-Christina App-Christina AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D2F0EEB27D8672100540D33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7D2F0EF727D8672100540D33 /* ViewController.swift in Sources */,
+				7D2F0FBE27DD2A6400540D33 /* UploadViewController.swift in Sources */,
 				7D2F0EF327D8672100540D33 /* AppDelegate.swift in Sources */,
 				7D2F0EF527D8672100540D33 /* SceneDelegate.swift in Sources */,
+				7D2F0FBC27DCFBA100540D33 /* CustomTabBarViewController.swift in Sources */,
+				7D2F0F2A27D99D0500540D33 /* HomeViewController.swift in Sources */,
+				7D2F0F2E27D99D4500540D33 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +626,7 @@
 		};
 		7D2F0F1A27D8672200540D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2970509A125ED1E0823E3AE6 /* Pods-Christina App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +640,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +650,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7D2F0F1B27D8672200540D33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036E222BC7859414A143EBC3 /* Pods-Christina App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +670,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,12 +680,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7D2F0F1D27D8672200540D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05689B12C18D0D525F19B3A4 /* Pods-Christina AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +707,7 @@
 		};
 		7D2F0F1E27D8672200540D33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B64D281B67AAD36D2B567FF /* Pods-Christina AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +728,7 @@
 		};
 		7D2F0F2027D8672200540D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA9515AE925D280C39EF937 /* Pods-Christina App-Christina AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +747,7 @@
 		};
 		7D2F0F2127D8672200540D33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900306B7987869A953FC17C9 /* Pods-Christina App-Christina AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

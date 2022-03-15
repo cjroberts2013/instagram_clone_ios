@@ -1,0 +1,6 @@
+framework module Pods_Christina_App_Christina_AppUITests {
+  umbrella header "Pods-Christina App-Christina AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
